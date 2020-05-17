@@ -28,7 +28,10 @@
   <body class="container py-1 bg-dark">
     <!-- NAV -->
 
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark d-flex flex-row">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark d-flex flex-row border-bottom border-secondary"
+      style="background-color: #282828;"
+    >
       <a class="navbar-brand" href="#">
         <img src="img/FH-logo-blue.svg" width="50" height="50" alt="" />
       </a>
@@ -65,8 +68,11 @@
 
     <!-- HEADER  -->
 
-    <div class="container bg-dark mb-lg-5 bg-img">
-      <header class="row mt-5">
+    <div
+      class="container mb-lg-5 bg-img shadow p-3 mb-5rounded border-bottom border-secondary"
+      style="background-color: #282828;"
+    >
+      <header class="row">
         <div class="col-12 col-lg-7">
           <img
             class="img-fluid"
@@ -88,7 +94,7 @@
     <!-- Services -->
 
     <main>
-      <section class="bg-secondary" id="services">
+      <section class="bg-secondary mb-4 shadow" id="services">
         <div class="d-flex flex-column text-center mt-5 mt-lg-2">
           <h2 class="h5 pb-0 mb-0 mt-5">SERVICES</h2>
           <h3 class="pb-0 mt-0 pl-4 text-light mb-5">What I Do</h3>
@@ -148,7 +154,9 @@
       <!-- RESUME -->
 
       <section id="resume">
-        <div class="shadow">
+        <div
+          class="shadow rounded mt-4 border-bottom border-top border-secondary"
+        >
           <div class="d-flex flex-column text-center mt-5 mt-lg-2">
             <h2 class="h5 pb-0 mb-0 mt-5">RESUME</h2>
             <h3 class="pb-0 mt-0 pl-4 text-light mb-5">A short Bio</h3>
@@ -299,9 +307,12 @@
             </div>
             <div class="col-12 col-md-6 col-lg-6">
               <a href=""
-                ><img class="img-fluid" src="img/progress.jpg" alt="" />feet
-                wearing red shoes climbing blue stairs</a
-              >
+                ><img
+                  class="img-fluid"
+                  src="img/progress.jpg"
+                  alt="feet
+                wearing red shoes climbing blue stairs"
+              /></a>
             </div>
           </div>
         </div>
@@ -309,16 +320,76 @@
     </main>
 
     <!-- CONTACT FORM -->
-    <section class="mt-5">
-      <div class="mt-4 row bg-secondary justify-content-center" id="contact">
+    <section class="mt-5 mx-3">
+      <div
+        class="mt-4 row justify-content-center shadow mb-5 rounded bg-secondary"
+        id="contact"
+        ;
+      >
         <div class="d-flex flex-column text-center mt-5 mt-lg-2">
           <h2 class="h5 pb-0 mb-0 mt-5">CONTACT</h2>
           <h3 class="pb-0 mt-0 text-light mb-5">Get in Touch</h3>
-          <p class="pb-0 mt-0 text-light mb-5">
+          <p class="pb-0 px-5 mt-0 text-light mb-5">
             Expenses as material breeding insisted building to in. Continual so
             distrusts pronounce by unwilling listening. Thing do taste on we
-            manor.
+            manor.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           </p>
+        </div>
+
+        <!-- S/M CONNECTION  -->
+
+        <div class="container mt-lg-3">
+          <div
+            class="d-flex flex-column flex-md-row card-columns mx-3 pb-5 justify-content-center"
+          >
+            <div
+              class="card d-flex flex-lg-row rounded mx-auto"
+              style="width: 200px; height: 200px;"
+            >
+              <img
+                class="img-fluid img-fluid w-100 card-img card-img"
+                src="img/Logos/Button-Black-Large.png"
+                alt="photo of people working on a computer"
+              />
+              <div class="card-img-overlay d-flex">
+                <div class="mx-auto align-self-end">
+                  <a href="#" class="btn btn-secondary">Codepen</a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="card d-flex flex-lg-row rounded mx-auto"
+              style="width: 200px; height: 200px;"
+            >
+              <img
+                class="card-img card-img"
+                src="img/Logos/LI-In-Bug.png"
+                alt="photo of people working on a computer"
+              />
+              <div class="card-img-overlay d-flex">
+                <div class="mx-auto align-self-end">
+                  <a href="#" class="btn btn-secondary">Linkedin</a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="card d-flex flex-lg-row rounded mx-auto"
+              style="width: 200px; height: 200px;"
+            >
+              <img
+                class="img-fluid card-img card-img"
+                src="img/Logos/GitHub-Mark-120px-plus.png"
+                alt="photo of people working on a computer"
+              />
+              <div class="card-img-overlay d-flex">
+                <div class="mx-auto align-self-end">
+                  <a href="#" class="btn btn-secondary">GitHub</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <form class="mt-4 row justify-content-center mx-auto">
@@ -331,7 +402,7 @@
             />
           </div>
 
-          <div class="col-11 form-group">
+          <div class="col-11 col-lg-6 form-group">
             <input
               type="email"
               class="form-control"
@@ -341,7 +412,7 @@
             />
           </div>
 
-          <div class="col-11 form-group">
+          <div class="col-11 col-lg-12 form-group">
             <textarea
               rows="10"
               name="message"
@@ -353,12 +424,18 @@
           </div>
 
           <div class="col-11 col-lg-8 form-group form-group text-center">
-            <button class="btn btn-primary" name="submit">
+            <button class="btn btn-primary shadow" name="submit">
               Send Message
             </button>
           </div>
         </form>
       </div>
     </section>
+
+    <footer>
+      <p class="border-top border-secondary py-3 pl-3 text-secondary">
+        &copy; Franzisca Henke
+      </p>
+    </footer>
   </body>
 </html>
