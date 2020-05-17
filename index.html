@@ -148,15 +148,13 @@
       <!-- RESUME -->
 
       <section id="resume">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <h5 class="h5 pb-0 mb-0 mt-5">resume</h5>
-              <h2 class="pb-0 mt-0 pl-4 text-light mb-5">My Short Bio</h2>
-            </div>
+        <div class="shadow">
+          <div class="d-flex flex-column text-center mt-5 mt-lg-2">
+            <h2 class="h5 pb-0 mb-0 mt-5">RESUME</h2>
+            <h3 class="pb-0 mt-0 pl-4 text-light mb-5">A short Bio</h3>
           </div>
 
-          <div class="row bios mb-lg-3">
+          <div class="row bios mb-lg-3 p-5">
             <div class="col-md-6">
               <div class="resume-ed d-flex">
                 <h4>Education</h4>
@@ -235,10 +233,10 @@
 
           <!-- PROOGRESS -->
 
-          <div class="row bios mt-5 bg-light p-5">
+          <div class="row bios mt-5 p-5">
             <div class="col-md-6">
               <div class="resume-pro">
-                <h4>My personl progress</h4>
+                <h4>My personal progress</h4>
                 <p>
                   Expenses as material breeding insisted building to in.
                   Continual so distrusts pronounce by unwilling listening. Thing
@@ -309,5 +307,58 @@
         </div>
       </section>
     </main>
+
+    <!-- CONTACT FORM -->
+    <section class="mt-5">
+      <div class="mt-4 row bg-secondary justify-content-center" id="contact">
+        <div class="d-flex flex-column text-center mt-5 mt-lg-2">
+          <h2 class="h5 pb-0 mb-0 mt-5">CONTACT</h2>
+          <h3 class="pb-0 mt-0 text-light mb-5">Get in Touch</h3>
+          <p class="pb-0 mt-0 text-light mb-5">
+            Expenses as material breeding insisted building to in. Continual so
+            distrusts pronounce by unwilling listening. Thing do taste on we
+            manor.
+          </p>
+        </div>
+
+        <form class="mt-4 row justify-content-center mx-auto">
+          <div class="col-11 col-lg-6 form-group">
+            <input
+              type="text"
+              class="form-control"
+              id="Name"
+              placeholder="Name.."
+            />
+          </div>
+
+          <div class="col-11 form-group">
+            <input
+              type="email"
+              class="form-control"
+              id="Email"
+              placeholder="Email.."
+              required
+            />
+          </div>
+
+          <div class="col-11 form-group">
+            <textarea
+              rows="10"
+              name="message"
+              id="message-text"
+              class="form-control"
+              placeholder="Message.."
+              required
+            ></textarea>
+          </div>
+
+          <div class="col-11 col-lg-8 form-group form-group text-center">
+            <button class="btn btn-primary" name="submit">
+              Send Message
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
   </body>
 </html>
